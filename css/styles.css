@@ -24,17 +24,16 @@ nav{
     margin: auto;
     margin-top: 15px;
     height: 40px;
-    background-color: chartreuse;
 }
 
 img#logo{
-    height: 300px;
+    height: 200px;
     border-radius: 50%;
     float: left;
     display: block;
     margin-left: 30px;
     margin-right: 30px;
-    margin-top: 150px;
+    margin-top: 0;
 }
 
 ul{
@@ -49,12 +48,24 @@ ul li{
     padding: 2px;
 }
 
+
 ul a{
     color: #000;
     text-decoration: none;
 }
 
+
 #body{
-    width: 100%;
+    width: 90%;
     height: 2000px;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+background: rgba(0, 237, 7, 0.5);
+border-radius: 50px;
+border-right: 2px solid #fff;
 }
