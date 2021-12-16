@@ -240,7 +240,7 @@ border-right: 2px solid #fff;
     width: 25%;
     margin-left: 900px;
     padding: 20px;
-    position: relative;
+    position: absolute;
     top: 90px;
 
 }
