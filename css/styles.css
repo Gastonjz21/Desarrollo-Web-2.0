@@ -234,7 +234,7 @@ border-right: 2px solid #fff;
 }
 
 .formulario{
-    background-color: aquamarine;
+    background-color: rgba(127, 255, 212, 0.5);
     border-radius: 20px;
     text-align: center;
     width: 25%;
