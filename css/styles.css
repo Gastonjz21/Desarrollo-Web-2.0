@@ -125,6 +125,7 @@ scroll-behavior: smooth;
 
 body{
     background-image: url(../img/fnweb.jpg);
+    background-attachment: fixed;
 }
 
 #body{
