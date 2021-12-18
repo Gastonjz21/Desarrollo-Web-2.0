@@ -202,7 +202,7 @@ h2{
 }
 
 .item:hover{
-    transform: rotate(3deg);
+    transform: rotate(3deg) scale(1.1);
 }
 
 .beneficios{
