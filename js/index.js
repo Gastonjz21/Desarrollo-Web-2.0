@@ -5,8 +5,8 @@ function AnimacionLogo(pxPantalla){
         
         if(scroll > pxPantalla){
             logo.style.marginTop = `${10}px`, logo.style.width = `${60}px`, logo.style.height = `${60}px`;
-        } else {
-            logo.style.marginTop = `${120}px`, logo.style.width = `${200}px`, logo.style.height = `${200}px`;
+        } else{
+            logo.style.marginTop = `${120}px`, logo.style.width = `${350}px`, logo.style.height = `${350}px`;
         }
     })
 }
