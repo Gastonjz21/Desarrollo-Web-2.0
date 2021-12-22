@@ -71,13 +71,6 @@ header{
     z-index: 1;
 }
 
-nav{
-    display: table;
-    margin: auto;
-    margin-top: 0;
-    height: 40px;
-}
-
 img#logo{
     height: 350px;
     border-radius: 50%;
@@ -89,6 +82,13 @@ img#logo{
     transition: all .5s;
 }
 
+nav{
+    display: table;
+    margin: auto;
+    margin-top: 0;
+    height: 40px;
+}
+
 ul{
     display: block;
     float: left;
@@ -96,18 +96,19 @@ ul{
     font-size: 18px;
 }
 
-ul li{
+li{
     float: left;
     padding: 25px;
 }
 
 
-ul a{
+a{
     text-decoration: none;
     color: #3F4645;
+    padding: 25px;
 }
 
-nav ul li:hover {
+nav ul li a:hover {
     background: #A5FFD6;
     box-shadow: 0px 2px 0px #26DA87;
     transition: 0.4s;
@@ -241,7 +242,7 @@ input:focus, textarea:focus {
 textarea {
     resize: vertical;
     max-height: 200px;
-    min-height: 20px;
+    min-height: 90px;
 }
 
 input[type= "submit"] {
@@ -278,7 +279,7 @@ border-right: 2px solid #fff;
 .formulario{
     background-color: rgba(127, 255, 212, 0.5);
     border-radius: 20px;
-    width: 30%;
+    width: 25%;
     padding: 20px;
     position: relative;
     margin: auto;
@@ -311,7 +312,7 @@ padding: 100px 20px 150px;
 @media screen and (max-width: 950px) {
 
     .formulario{
-        width: 70%;
+        width: 50%;
     }
 
     input, select, textarea{
