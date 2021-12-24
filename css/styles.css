@@ -51,12 +51,34 @@ table {
 box-sizing: border-box;
 }
 
-section#banner {
+#banner {
     width: 100%;
     height: 100vh;
-    background-image: url('../img/fondo.jpg');
-    background-position: center;
+    animation: animate 16s  infinite alternate ease-in-out ;
+    background-size: cover;
     background-repeat: no-repeat;
+}
+
+@keyframes animate{
+    0%, 100%{
+        background-image: url(../img/fondo.jpg);
+    }
+
+    25%{
+        background-image: url(../img/fondo1.jpg);
+    }
+
+    50%{
+        background-image: url(../img/fondo2.jpg);
+    }
+
+   /** 75%{
+        background-image: url(../img/fondo3.jpg);
+    }
+    
+    95%{
+        background-image: url(../img/fondo4.jpg);
+    }**/
 }
 
 img{
@@ -79,7 +101,7 @@ img#logo{
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 120px;
-    transition: all .5s;
+    transition: all .5s ease-in-out;
 }
 
 nav{
@@ -102,7 +124,7 @@ li{
 }
 
 
-a{
+li a{
     text-decoration: none;
     color: #3F4645;
     padding: 25px;
