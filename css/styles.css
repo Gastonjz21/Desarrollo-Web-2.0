@@ -54,32 +54,12 @@ box-sizing: border-box;
 #banner {
     width: 100%;
     height: 100vh;
-    animation: animate 16s  infinite alternate ease-in-out ;
+    background-image: url(../img/fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-@keyframes animate{
-    0%, 100%{
-        background-image: url(../img/fondo.jpg);
-    }
 
-    25%{
-        background-image: url(../img/fondo1.jpg);
-    }
-
-    50%{
-        background-image: url(../img/fondo2.jpg);
-    }
-
-   /** 75%{
-        background-image: url(../img/fondo3.jpg);
-    }
-    
-    95%{
-        background-image: url(../img/fondo4.jpg);
-    }**/
-}
 
 img{
     max-width: 100%;
@@ -320,16 +300,14 @@ padding: 100px 20px 150px;
 }
 
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 1105px) {
     header{
-   display: none;
+        display: none;
     }
-
     #banner{
         display: none;
     }
 }
-
 
 @media screen and (max-width: 950px) {
 
