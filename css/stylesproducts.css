@@ -46,6 +46,11 @@ table {
 box-sizing: border-box;
 }
 
+body {
+    background-image: url(../img/fnweb.jpg);
+    background-attachment: fixed;
+}
+
 .titulo {
     padding: 20px;
     background-color: rgba(156, 244, 136, 0.5);
