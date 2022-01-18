@@ -13,3 +13,6 @@ function AnimacionLogo(pxPantalla){
 
 AnimacionLogo(100);
 
+document.querySelector(".side-panel-toggle").addEventListener("click", () => {
+    document.querySelector(".sidepanel").classList.toggle("side-panel-open");
+});
