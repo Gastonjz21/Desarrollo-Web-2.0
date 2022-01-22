@@ -60,10 +60,6 @@ box-sizing: border-box;
 }
 
 
-img{
-    max-width: 100%;
-}
-
 header{
     background-color: #64a223;
     height: 80px;
