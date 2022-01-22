@@ -146,7 +146,14 @@ nav ul li a:hover,
     cursor: pointer;
 
     display: none;
+    transition: ease-in-out .5s;
 }
+
+.animacion {
+    transform: rotate(90deg);
+}
+
+
 
 a:active{
     color:#3F4645;
@@ -497,6 +504,7 @@ background: #98FB98;
     .nav-menu_visible {
         left: 0;
     }
+
     
 }
 
