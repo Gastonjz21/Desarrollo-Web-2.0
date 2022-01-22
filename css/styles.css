@@ -65,7 +65,7 @@ img{
 }
 
 header{
-    background-color: #9cf488;
+    background-color: #64a223;
     height: 80px;
     position: fixed;
     width: 100%;
@@ -119,12 +119,13 @@ li{
     float: left;
     text-transform: uppercase;
     width: max-content;
+    font-weight: bold;
 }
 
 
 li a{
     text-decoration: none;
-    color: #3F4645;
+    color: #ffffff;
     padding: 25px;
     border-radius: 5px;
 }
@@ -202,12 +203,10 @@ h2{
 
 .containermarcas{
     background-color: #fff;
+    display: flex;
+    justify-content: center;
 }
 
-.imgmarcas{
-    padding: 20px;
-    margin: auto;
-}
 
 .nuestrasmarcasid{
     width: 100%;
@@ -236,6 +235,7 @@ h2{
     padding: 40px;
     overflow: hidden;
     transition: all .3s ease-in-out;
+    vertical-align: middle;
 }
 
 #allsitems{
@@ -459,7 +459,7 @@ background: #98FB98;
         margin: auto;
         margin-top: 0;
         line-height: 60px;
-        background-color: turquoise;
+        background-color: #c4d69c;
         position: fixed;
         left: 0;
         top: 60px;
@@ -482,6 +482,7 @@ background: #98FB98;
         float: none;
         line-height: 70px;
         margin: auto;
+        
     }
     
     
