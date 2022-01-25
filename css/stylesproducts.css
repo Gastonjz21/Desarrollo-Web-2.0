@@ -49,16 +49,18 @@ box-sizing: border-box;
 body {
     background-image: url(../img/fnweb.jpg);
     background-attachment: fixed;
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 .titulo {
     padding: 20px;
-    background-color: rgba(156, 244, 136, 0.5);
+    background-color: #64a223;
     border-radius: 15px;
     margin-top: 15px;
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 7px;
+    color: #ffffff;
 }
 
 .container {
