@@ -118,6 +118,11 @@ border-right: 2px solid #fff;
     line-height: 60px;
     padding: 0 20px;
     font-size: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.logo-line:hover {
+    transform: scale(1.1);
 }
 
 
@@ -142,6 +147,12 @@ nav.nav {
 
     transition: ease-in-out .5s;
 }
+
+.home-toggle:hover {
+    transform: translateY(-5px);
+}
+
+
 
 .navegacion {
     flex-direction: column;
@@ -199,12 +210,16 @@ li a:hover {
 }
 
 .animacion {
-    transform: rotate(90deg);
+    transform: rotate(180deg);
 }
 
 @media screen and (max-width: 600px) {
     .materialbox-caption {
         width: 90%;
+    }
+
+    .titulo {
+        font-size: 30px;
     }
 
 }
