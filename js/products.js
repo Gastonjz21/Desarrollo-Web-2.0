@@ -6,6 +6,35 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+//scrollUp
+
+document.getElementById("button-up").addEventListener("click", scrollUp);
+
+function scrollUp (){
+    
+   var courrentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+   
+   if (courrentScroll > 0){
+       window.scrollTo (0, 0);
+   }
+};
+
+buttonUp = document.getElementById("button-up");
+
+window.onscroll = function(){
+
+    var scroll = document.documentElement.scrollTop;
+    
+    if (scroll > 600){
+        buttonUp.style.transform = "scale(1)";
+    }else if(scroll < 600){
+        buttonUp.style.transform = "scale(0)";
+    }
+
+}
+
+///
+
 const navToggle = document.querySelector(".nav-toggle")
 const navDeg = document.querySelector(".nav-toggle")
 const navMenu = document.querySelector(".navegacion")

@@ -136,7 +136,7 @@ nav.nav {
 }
 
 
-.nav-toggle, .home-toggle {
+.nav-toggle {
     color: white;
     background: none;
     border: none;
@@ -146,10 +146,6 @@ nav.nav {
     cursor: pointer;
 
     transition: ease-in-out .5s;
-}
-
-.home-toggle:hover {
-    transform: translateY(-5px);
 }
 
 
@@ -211,6 +207,34 @@ li a:hover {
 
 .animacion {
     transform: rotate(180deg);
+}
+
+#button-up {
+    width: 60px;
+    height: 60px;
+    background-color: #c4d69c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: all 300ms ease;
+    transform: scale(0);
+}
+
+#button-up:hover {
+    transform: scale(1.1);
+    border-color: rgba(0,0,0,0.1);
+}
+
+.fas {
+    color: #ffffff;
 }
 
 @media screen and (max-width: 600px) {

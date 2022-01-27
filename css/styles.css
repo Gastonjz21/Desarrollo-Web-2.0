@@ -94,6 +94,7 @@ header{
 }
 
 img#logo{
+    background-color: #ffffff;
     height: 350px;
     border-radius: 50%;
     float: left;
@@ -229,6 +230,12 @@ h2{
     padding: 35px;
 }
 
+.container {
+    background-color: #ffffff;
+    width: 100%;
+    margin-top: 80px;
+}
+
 .item{
     display: inline-block;
     padding: 40px;
@@ -327,6 +334,34 @@ border-right: 2px solid #fff;
     z-index: 0;
 }
 
+#button-up {
+    width: 60px;
+    height: 60px;
+    background-color: #c4d69c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: all 300ms ease;
+    transform: scale(0);
+    z-index: 1;
+}
+
+#button-up:hover {
+    transform: scale(1.1);
+    border-color: rgba(0,0,0,0.1);
+}
+
+.fa-chevron-up {
+    color: #ffffff;
+}
 
 
 #footer{
