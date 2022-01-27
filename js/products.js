@@ -5,3 +5,53 @@ document.addEventListener('DOMContentLoaded', () => {
         outDuration: 700
     });
 });
+
+const navToggle = document.querySelector(".nav-toggle")
+const navDeg = document.querySelector(".nav-toggle")
+const navMenu = document.querySelector(".navegacion")
+const vrinkA = document.querySelector(".vr")
+const nuestrosSabores = document.querySelector(".ns")
+const muecasS = document.querySelector(".mc")
+const crowieS = document.querySelector(".cw")
+const puraFruta = document.querySelector(".pf")
+
+navDeg.addEventListener("click", () => {
+    navDeg.classList.toggle("animacion")
+});
+
+
+
+navToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("nav-menu_visible");
+
+    if (navMenu.classList.contains("nav-menu_visible")) {
+        navToggle.setAttribute("aria-label", "Cerrar menú");
+      } else {
+        navToggle.setAttribute("aria-label", "Abrir menú");
+      }
+});
+
+vrinkA.addEventListener("click", () => {
+    navMenu.classList.toggle("nav-menu_visible");
+    navDeg.classList.toggle("animacion");
+});
+
+nuestrosSabores.addEventListener("click", () => {
+    navMenu.classList.toggle("nav-menu_visible");
+    navDeg.classList.toggle("animacion");
+});
+
+muecasS.addEventListener("click", () => {
+    navMenu.classList.toggle("nav-menu_visible");
+    navDeg.classList.toggle("animacion");
+});
+
+crowieS.addEventListener("click", () => {
+    navMenu.classList.toggle("nav-menu_visible");
+    navDeg.classList.toggle("animacion");
+});
+
+puraFruta.addEventListener("click", () => {
+    navMenu.classList.toggle("nav-menu_visible");
+    navDeg.classList.toggle("animacion");
+});
