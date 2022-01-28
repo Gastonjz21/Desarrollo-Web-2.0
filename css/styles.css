@@ -325,6 +325,7 @@ border-right: 2px solid #fff;
 
 .formulario{
     background-color: rgba(127, 255, 212, 0.5);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     width: 25%;
     padding: 20px;
