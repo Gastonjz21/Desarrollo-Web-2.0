@@ -243,7 +243,9 @@ li a:hover {
     }
 
     .titulo {
-        font-size: 30px;
+        font-size: 15px;
+        overflow: hidden;
+        font-weight: bold;
     }
 
 }
